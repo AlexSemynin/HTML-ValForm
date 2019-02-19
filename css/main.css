@@ -1,0 +1,23 @@
+body{
+    background: #333;
+    padding: 20px;
+}
+*{
+     box-sizing: border-box; /*Свойства width и height включают в себя значения полей и границ */
+}
+form{
+    max-width: 450px;
+    margin: 0 auto;
+}
+form > div{
+    position: relative;
+    background: white;
+    border-bottom: 1px solid #ccc;
+}
+form > div > label{
+    opacity: 0.3;
+    font-weight: bold;
+    position: absolute;
+    top: 22px;
+    left: 20px;
+}
