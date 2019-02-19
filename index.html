@@ -5,8 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>ValidForms</title>
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-
+    <form action="#">
+        <div class="Name">
+            <input type="text" name="firstName" id="firstNameID">
+            <label for="firstNameID">First Name</label>
+        </div>
+        <div class="Name">
+            <input type="text" name="LastName" id="LastNameID">
+            <label for="LastNameID">Last Name</label>
+        </div>
+        <div class="email">
+            <input type="email" name="email" id="emailID">
+            <label for="emailID">Email address</label>
+            <div class="requirements">
+                Must be a valid email address.
+            </div>
+        </div>
+        <input type="password" name="password" id="passwordID">
+        <label for="passwordID">Password</label>
+        <div class="requirements">
+            Must be a valid password.
+        </div>
+        <input type="submit" value="Sign up">
+    </form>
 </body>
 </html>
